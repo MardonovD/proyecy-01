@@ -1,0 +1,34 @@
+.nav {
+  color: darken($color-white, 20%);
+
+  .container {
+    @include flex;
+  }
+  &__logo {
+    display: inline-block;
+    background-color: $color-primary;
+    margin-right: 5rem;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    @include center;
+  }
+
+  &__list {
+    @include flex;
+  }
+
+  &__item {
+    margin-right: 1.5rem;
+  }
+  &__link {
+    padding: 0.5rem;
+    @include transition(color);
+    &:hover {
+      color: $color-white;
+    }
+  }
+  &__right {
+    margin-left: auto;
+  }
+}

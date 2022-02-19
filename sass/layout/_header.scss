@@ -1,0 +1,22 @@
+.header {
+  border-radius: 0 0 20rem 20rem;
+  padding: 6rem;
+  background-image: url(../../img/bg-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 15rem;
+
+  &__text-box {
+    color: $color-white;
+    width: 50%;
+    margin: 20rem auto;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 80px;
+    margin-bottom: 5rem;
+  }
+ 
+}
