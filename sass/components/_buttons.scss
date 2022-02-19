@@ -16,7 +16,7 @@
   }
 }
 
-.header__link  {
+.header__link {
   margin-top: 3rem;
   display: inline-block;
   background-color: $color-primary;
@@ -24,6 +24,18 @@
   border-radius: 3rem;
   @include transition;
   &:hover {
-    background-color: darken($color-primary, 5%);
+    background-color: darken($color-primary, 1);
+  }
+}
+
+.explore__more {
+  padding: 1rem 6rem;
+  border: 0.2rem solid $color-primary;
+  border-radius: $border-radius;
+  margin-top: 5rem;
+  @include transition;
+  &:hover {
+    background-color: $color-primary;
+    color: $color-white;
   }
 }

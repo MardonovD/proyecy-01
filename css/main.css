@@ -63,6 +63,15 @@ input {
   white-space: nowrap;
   width: 1px; }
 
+.mb-5 {
+  margin-bottom: 5rem; }
+
+.mb-6 {
+  margin-bottom: 5rem; }
+
+.mb-7 {
+  margin-bottom: 5rem !important; }
+
 .sign-in,
 .sign-up {
   display: inline-block;
@@ -87,7 +96,17 @@ input {
   border-radius: 3rem;
   transition: all 0.5s ease; }
   .header__link:hover {
-    background-color: #e45c3b; }
+    background-color: #e66b4d; }
+
+.explore__more {
+  padding: 1rem 6rem;
+  border: 0.2rem solid #e76f51;
+  border-radius: 2rem;
+  margin-top: 5rem;
+  transition: all 0.5s ease; }
+  .explore__more:hover {
+    background-color: #e76f51;
+    color: #ffffff; }
 
 .feature-box {
   cursor: default;
@@ -106,6 +125,62 @@ input {
     margin-bottom: 1.2rem; }
   .feature-box .feature-text {
     font-size: 1.6rem; }
+
+.card {
+  background-color: #ffffff;
+  border-radius: 2rem;
+  padding: 2rem; }
+  .card__header {
+    position: relative; }
+    .card__header::before {
+      content: "";
+      border-radius: 2rem;
+      background-color: rgba(59, 55, 53, 0.3);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+    .card__header img {
+      border-radius: 2rem;
+      display: block; }
+  .card__like-btn {
+    position: absolute;
+    top: 1rem;
+    background-color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    right: 1rem; }
+  .card__price {
+    color: #e76f51;
+    background-color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 14rem;
+    padding: 1rem 0;
+    transform: translateY(-2rem);
+    margin: 0 auto;
+    border-radius: 1.4rem;
+    border: 0.5px solid #e76f51; }
+  .card__text {
+    margin-top: 1.2rem;
+    margin-bottom: 2.5rem;
+    font-size: 1.6rem; }
+  .card__link {
+    display: inline-block;
+    font-weight: 500;
+    color: #8d8d8d;
+    background-color: #f3f3f3;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    transition: all 0.5s ease; }
+    .card__link:hover {
+      background-color: #e76f51;
+      color: #ffffff; }
 
 .header {
   border-radius: 0 0 20rem 20rem;
@@ -170,3 +245,10 @@ input {
 
 .feature {
   transform: translateY(-30%); }
+
+.explore {
+  margin-top: 5rem;
+  text-align: center; }
+  .explore__title {
+    width: 50%;
+    margin: 0 auto; }
