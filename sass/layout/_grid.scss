@@ -2,18 +2,21 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  color: $color-white;
+  color: $color-secondary;
+
   [class^="col-"] {
-    margin-bottom: 3rem;
+    margin-bottom: $gap-vertical;
   }
 
   .col-1-of-2 {
-    width: calc((100% - 3rem) / 2);
-    background-color: black;
+    width: calc((100% - #{$gap-horizontal}) / 2);
   }
 
   .col-1-of-3 {
-    width: calc((100% - 2 * 3rem) / 3);
-    background-color: black;
+    width: calc((100% - 2 * #{$gap-horizontal}) / 3);
+  }
+
+  .col-1-of-4 {
+    width: calc((100% - 3 * #{$gap-horizontal}) / 4);
   }
 }
