@@ -182,6 +182,46 @@ input {
       background-color: #e76f51;
       color: #ffffff; }
 
+.form__subtitle {
+  font-style: 1.6rem;
+  margin-top: 1.4rem;
+  margin-bottom: 3rem; }
+
+.form__inp {
+  background-color: #ffffff;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.form__input {
+  outline: none;
+  padding: 1.5rem;
+  background-image: url(../../img/message.png);
+  background-repeat: no-repeat;
+  background-position: 1.5rem 50%;
+  text-indent: 3rem; }
+  .form__input:focus {
+    background-image: none;
+    text-indent: 0; }
+
+.form__submit {
+  width: 5.5rem;
+  height: 5.5rem;
+  background-color: #e76f51;
+  border-radius: 2rem;
+  box-shadow: 0.5rem 1rem 3rem rgba(231, 111, 81, 0.4);
+  transition: all 0.5s ease; }
+  .form__submit:hover {
+    background-color: #e45c3b; }
+
+.footer {
+  font-size: 1.6rem; }
+  .footer__text-box {
+    width: 40%;
+    display: inline-block; }
+
 .header {
   border-radius: 0 0 20rem 20rem;
   padding: 6rem;
@@ -252,3 +292,22 @@ input {
   .explore__title {
     width: 50%;
     margin: 0 auto; }
+
+.touch {
+  margin-top: 15rem; }
+  .touch__box {
+    background-color: #f8e1db;
+    border-radius: 2rem;
+    padding: 4rem;
+    align-items: center;
+    background-image: url(../../img/shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .touch .form {
+    width: 50%; }
+  .touch__image {
+    width: 30%; }
+
+.footer {
+  margin-top: 15rem; }

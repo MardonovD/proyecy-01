@@ -10,3 +10,29 @@
     margin: 0 auto;
   }
 }
+
+.touch {
+  margin-top: 15rem;
+  &__box {
+    background-color: $color-background-2;
+    border-radius: $border-radius;
+    padding: 4rem;
+    align-items: center;
+    background-image: url(../../img/shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+  }
+
+  .form {
+    width: 50%;
+  }
+  &__image {
+    width: 30%;
+  }
+}
+
+.footer {
+  margin-top: 15rem;
+}
